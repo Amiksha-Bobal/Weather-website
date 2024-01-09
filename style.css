@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background-image: url(./clouds-.avif);
+    background-size: cover;
+    text-align: center;
+    margin: 50px;
+  
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #6ae6ed; /* Green background */
+    color: rgb(1, 2, 12); /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 10px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+#weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(86, 181, 245) ;
+    padding: 20px;
+    border: 20px solid #f082c8;
+    border-radius: 8px;
+}
+
+#weather-icon {
+    max-width: 100px;
+    max-height: 100px ;
+    margin: 0 auto;
+}
